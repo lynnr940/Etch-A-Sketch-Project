@@ -1,0 +1,35 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+
+
+.grid-container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:960px;
+    height:960px;
+    max-width: 960px;
+    max-height:960px;
+    border-style:outset;
+    border-color:blue;
+}
+
+.grid-box:hover {
+    background-color: green;
+}
+
+.grid-box {
+    display:flex;
+
+    
+}
+
+
+div {
+    display:flex;
+}
